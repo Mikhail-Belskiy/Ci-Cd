@@ -28,6 +28,6 @@ class ObjectAdmin(admin.ModelAdmin):
     inlines = [RelationshipInline]
 
 
-@admin.register(Tag)
-class ObjectAdmin(admin.ModelAdmin):
-    pass
+# @admin.register(Tag)
+# class ObjectAdmin(admin.ModelAdmin):
+#     pass
