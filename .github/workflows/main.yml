@@ -44,6 +44,7 @@ jobs:
       - name: Линтер
         run: flake8 M2M-RELATIONS --exclude migration --ignore E501,F401,E302,W293,W391,W292
 
+
       - name: Тесты
         run: python M2M-RELATIONS/mange.py test
         env:
