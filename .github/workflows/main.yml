@@ -47,7 +47,7 @@ jobs:
 
 
       - name: Тесты
-        run: python m2m-relations/mange.py test
+        run: python m2m-relations/manage.py test
         env:
             SECRET_KEY: ${{ env.SECRET_KEY }}
             DEBUG: "0"
