@@ -43,7 +43,7 @@ jobs:
         run: pip install -r m2m-relations/requirements.txt
 
       - name: Линтер
-        run: flake8 M2M-RELATIONS --exclude migration --ignore E501,F401,E302,W293,W391,W292
+        run: flake8 m2m-relations --exclude migration --ignore E501,F401,E302,W293,W391,W292
 
 
       - name: Тесты
